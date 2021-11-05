@@ -1,5 +1,21 @@
 <template>
   <div class="home">
-    <h1>home</h1>
+    <div class="container">
+      <Hero />
+    </div>
   </div>
 </template>
+
+<script>
+import Hero from "@/components/Hero.vue";
+
+export default {
+  name: "Home",
+  components: {
+    Hero,
+  },
+};
+</script>
+
+<style>
+</style>

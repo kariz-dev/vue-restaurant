@@ -25,11 +25,11 @@
           </b-nav-form>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
-            <router-link class="nav-link" to="/cart">
-                Cart
-                <b-icon-bag />
-                <span class="badge badge-success ml-2">0</span>
-            </router-link>
+          <router-link class="nav-link" to="/cart">
+            Cart
+            <b-icon-bag />
+            <span class="badge badge-success ml-2">0</span>
+          </router-link>
         </b-navbar-nav>
       </b-collapse>
     </div>

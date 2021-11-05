@@ -1,5 +1,5 @@
 <template>
-  <b-navbar toggleable="lg" type="dark" variant="info">
+  <b-navbar toggleable="lg" type="dark" class="bg-darker">
     <div class="container">
       <router-link class="navbar-brand" to="/">Restaurant</router-link>
 
@@ -19,7 +19,7 @@
               class="mr-sm-2"
               placeholder="Search"
             ></b-form-input>
-            <b-button size="sm" class="my-2 my-sm-0" type="submit"
+            <b-button size="sm" class="my-2 my-sm-0 btn-search" type="submit"
               >Search</b-button
             >
           </b-nav-form>

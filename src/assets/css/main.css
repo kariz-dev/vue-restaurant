@@ -3,3 +3,27 @@
 #app {
   font-family: "Poppins", sans-serif;
 }
+
+.bg-darker {
+  background: #3F3D56;
+}
+
+.btn-search,
+.badge-success {
+  background: #39C0A6;
+  color: #3F3D56;
+}
+
+.btn-search:hover {
+  background: #F96383;
+}
+
+.btn-success {
+  background: #3F3D56;
+  border: none;
+}
+
+.btn-success:hover {
+  background: #F96383;
+  color: #fff;
+}

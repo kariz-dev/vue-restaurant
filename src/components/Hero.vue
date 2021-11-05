@@ -1,8 +1,11 @@
 <template>
   <div class="row mt-4">
-    <div class="col">
+    <div class="col-md order-md-2">
+      <img src="../assets/images/hero.png" width="100%" alt="" />
+    </div>
+    <div class="col-md order-md-1">
       <div class="d-flex h-100">
-        <div class="align-self-center">
+        <div class="align-self-center text-center text-md-left">
           <h2 class="align-items-center">
             <strong>Delicious Food Menu</strong> <br />
             in Your Country
@@ -13,9 +16,6 @@
           </router-link>
         </div>
       </div>
-    </div>
-    <div class="col">
-      <img src="../assets/images/hero.png" width="100%" alt="" />
     </div>
   </div>
 </template>
